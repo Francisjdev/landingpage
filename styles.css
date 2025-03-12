@@ -2,4 +2,132 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family:Roboto;
 }
+body{
+    height: 100vh;
+    display: flex;
+    flex-direction: column; 
+    justify-content: space-between;
+    align-items: stretch;
+}
+.header{
+    background-color: #1f2937;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+header{
+    width: 70%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px;
+  
+}
+.header-text{
+    font-size: 24px;
+    color: #f9faf8;
+}
+.navlinks{
+    display: flex;
+    gap: 10px;
+    justify-content: end;
+    align-items: center;
+    font-size: 18px;
+    color:#e5e7eb;
+}
+.hero-container{
+    background-color: #1f2937;
+    display: flex;  
+    justify-content: center;
+    align-items: start;
+    border: solid green 1px;
+    font-size: 18px;
+    color:#e5e7eb;
+    flex: 1;
+}
+.hero{
+    width: 70%;
+    display: flex;
+    justify-content:center; 
+    align-items: center;
+    border: solid rgb(6, 0, 128) 1px;
+}
+.hero-img{
+    width: 600px;
+    height: 300px;
+}
+.footer {
+    background-color: #1f2937;
+    color: #f9faf8;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 25px;
+}
+
+.info{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 52px;
+    padding: 15px;
+    border: solid rgb(6, 0, 128) 1px;
+    flex: 1;
+}
+.title {
+    font-size: 36px;
+    font-weight: 900;
+    margin: 32px;
+    align-self: center;
+    text-align: center;
+    flex-basis: 100%;
+  }
+.item{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    border: 1px solid black;
+  }
+  .text{
+    text-align: center;
+  }
+  .item div{
+    width: 150px  ;
+  }
+.quote-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;  
+    align-items: center ;
+    flex: 1;
+    background-color: #e5e7eb;
+    
+}
+blockquote{
+    text-align: center;
+    display: flex;  
+    justify-content: center;    
+    align-items: center;
+}
+.testimonial{
+    width: 70%;
+    font-size: 36px;
+    font-weight: light;
+    color: #1f2937;
+    font-style: italic;
+    border: solid rgb(6, 0, 128) 1px;
+}
+
+button{
+   background-color: #3882f6;
+}
+li{
+    list-style: none;   
+}
+img {
+    width: 100px;
+    height: 100px;
+  }
