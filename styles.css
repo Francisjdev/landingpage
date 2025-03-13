@@ -41,8 +41,7 @@ header{
     background-color: #1f2937;
     display: flex;  
     justify-content: center;
-    align-items: start;
-    border: solid green 1px;
+    align-items: center;
     font-size: 18px;
     color:#e5e7eb;
     flex: 1;
@@ -50,9 +49,17 @@ header{
 .hero{
     width: 70%;
     display: flex;
-    justify-content:center; 
+    justify-content:space-between; 
     align-items: center;
-    border: solid rgb(6, 0, 128) 1px;
+}
+.hero-title{
+    font-size: 24px;
+    font-weight: 900;
+    color: #f9faf8;
+}
+.secondary-text{
+    font-size: 18px;
+    color: #e5e7eb;
 }
 .hero-img{
     width: 600px;
@@ -71,12 +78,12 @@ header{
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
-    gap: 52px;
+    gap: 20px;
     padding: 15px;
-    border: solid rgb(6, 0, 128) 1px;
     flex: 1;
+    margin-bottom: 25px;
 }
-.title {
+.info-title {
     font-size: 36px;
     font-weight: 900;
     margin: 32px;
@@ -86,6 +93,7 @@ header{
   }
 .item{
     display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
     flex-wrap: wrap;
@@ -93,18 +101,16 @@ header{
   }
   .text{
     text-align: center;
-  }
-  .item div{
-    width: 150px  ;
+    width: 150px;
   }
 .quote-container{
+    padding: 15px;
     display: flex;
     flex-direction: column;
     justify-content: center;  
     align-items: center ;
     flex: 1;
     background-color: #e5e7eb;
-    
 }
 blockquote{
     text-align: center;
@@ -118,11 +124,31 @@ blockquote{
     font-weight: light;
     color: #1f2937;
     font-style: italic;
-    border: solid rgb(6, 0, 128) 1px;
+}
+.call-wrapper{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex: 1;
+}
+.call-to-action{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    background-color: #3882f6;
+    width: 70%;
+    height: 100px;
+    border-radius: 15px;
+    color: #e5e7eb;
 }
 
 button{
    background-color: #3882f6;
+   font-size: 18px;
+   border-radius: 10px;
+   border: 1px solid white;
+   color: #e5e7eb;
+   padding: 10px 15px;
 }
 li{
     list-style: none;   
